@@ -60,6 +60,7 @@ button {
     margin: auto;
     margin-top: 15px;
     
+    font-family: 'Switzer', sans-serif;
     font-size: 19px;
     font-weight: 700;
     transition: color 200ms ease-in-out, background-color 200ms ease-in-out;
@@ -77,4 +78,5 @@ a {
 
 a:hover {
   color: #b64e73;
+  font-family: 'Switzer', sans-serif;
 }
