@@ -7,6 +7,7 @@
 }
 
 .welcomeText {
+    font-family: 'Switzer', sans-serif;
     display: none;
     color: #60486E;
 }
