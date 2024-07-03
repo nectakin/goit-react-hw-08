@@ -1,0 +1,26 @@
+.wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 350px;
+}
+
+.input {
+    display: block;
+        min-width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 9px;
+        outline: none;
+        padding-left: 15px;
+        color: #9c79b1;
+        background-color: #ffffffb7;
+        transition: background-color 200ms ease-in-out;
+}
+
+.wrapper p{
+    text-transform: capitalize;
+        display: flex;
+        margin-bottom: 5px;
+        color: #60486E;
+          
+}

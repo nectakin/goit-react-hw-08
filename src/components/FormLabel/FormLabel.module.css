@@ -1,0 +1,46 @@
+.formLabel {
+    display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 15px;
+        width: 400px;
+        padding-bottom: 10px;
+    }
+
+    .formLabel:nth-child(1){
+      margin-top: 100px;
+    }
+
+.labelTitle {
+    text-transform: capitalize;
+    display: flex;
+    margin-bottom: 5px;
+    color: #60486E;
+}
+
+.formField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    min-width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 9px;
+    outline: none;
+    padding-left: 15px;
+    color: #9c79b1;
+    background-color: #ffffffb7;
+    transition: background-color 200ms ease-in-out;
+}
+
+.formField:focus{
+    background-color: #ffffff;
+}
+
+.errorMessage {
+    color: rgb(216, 0, 0);
+padding-top: 12px;
+font-size: 15px;
+}

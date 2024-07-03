@@ -1,0 +1,22 @@
+.form {
+    max-width: 550px;
+    border: 1px solid #60486E;
+    padding: 20px 20px;
+    
+
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+
+    border-radius: 9px;
+    min-height: 300px;
+}
+
+.btn {
+    display: block;
+    margin: 45px auto 0;
+    margin-bottom: 30px;
+    padding: 6px;
+    min-width: 20px;
+}

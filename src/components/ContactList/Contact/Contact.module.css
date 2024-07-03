@@ -1,0 +1,69 @@
+.contactItem {
+    height: 120px;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    padding: 12px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid #60486E;
+    border-radius: 9px;
+
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+.contactItem>div:first-child {
+    width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+    .contactItem {
+        flex-basis: calc((100% - 10px) / 2);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .contactItem {
+        flex-basis: 350px;
+    }
+}
+
+.button {
+    padding: 7px;
+    min-width: 55px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.text {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.textContent {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    white-space: nowrap;
+}
+
+.text:first-child {
+    margin-bottom: 26px;
+}
+
+.buttonWrapper button {
+    display: block;
+    width: 100%;
+}
+
+.buttonWrapper button:first-child {
+    margin-bottom: 10px;
+}

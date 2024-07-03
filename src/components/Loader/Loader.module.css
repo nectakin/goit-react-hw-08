@@ -1,0 +1,9 @@
+.loader {
+    margin-top: 20px;
+}
+
+.loader svg {
+    width: 56px;
+    height: 56px;
+    stroke: #000000;
+}

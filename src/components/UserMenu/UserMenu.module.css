@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    font-weight: 700;
+}
+
+.welcomeText {
+    display: none;
+    color: #60486E;
+}
+
+@media screen and (min-width: 1024px) {
+    .welcomeText {
+        display: block;
+    }
+}
+
+.button {
+    padding: 15px 0;
+    font-size: 18px;
+    background-color: transparent;
+    transition: bacground-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+.button:hover, .button:focus{
+    background-color: transparent;
+    color: #b64e73;
+}
